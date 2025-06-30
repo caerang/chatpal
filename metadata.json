@@ -1,0 +1,6 @@
+{
+  "name": "ChatPal English Tutor",
+  "description": "An AI-powered chat application to help users practice English conversation. Engage in text-based chats with an AI tutor who provides real-time, natural corrections to improve your skills.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
