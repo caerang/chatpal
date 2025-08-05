@@ -14,3 +14,14 @@ Example Interaction:
 User: I am finish my work for today.
 AI: That's great! It must feel good to be done. What are you planning to do this evening? unwind a bit?
 ✨ A better way to say that: "I finished my work for today." or "I'm finished with my work for today."`;
+
+// Google OAuth Configuration
+// TODO: Replace with your actual Google OAuth Client ID
+export const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || 'your-google-client-id-here';
+
+// Google Identity Services Script URL
+export const GOOGLE_IDENTITY_SCRIPT_URL = 'https://accounts.google.com/gsi/client';
+
+// Local Storage Keys
+export const AUTH_STORAGE_KEY = 'chatpal_auth';
+export const USER_STORAGE_KEY = 'chatpal_user';
