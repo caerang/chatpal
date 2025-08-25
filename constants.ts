@@ -22,6 +22,13 @@ export const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || 'your-g
 // Google Identity Services Script URL
 export const GOOGLE_IDENTITY_SCRIPT_URL = 'https://accounts.google.com/gsi/client';
 
+// Kakao OAuth Configuration
+export const KAKAO_APP_KEY = import.meta.env.VITE_KAKAO_APP_KEY || 'your-kakao-javascript-app-key-here';
+
+// Kakao JavaScript SDK Script URL
+export const KAKAO_SDK_SCRIPT_URL = 'https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js';
+
 // Local Storage Keys
 export const AUTH_STORAGE_KEY = 'chatpal_auth';
 export const USER_STORAGE_KEY = 'chatpal_user';
+export const AUTH_PROVIDER_KEY = 'chatpal_auth_provider';

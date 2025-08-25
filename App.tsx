@@ -16,7 +16,7 @@ const App: React.FC = () => {
       try {
         // Check if user is authenticated
         if (authService.isAuthenticated()) {
-          const storedUser = authService.getStoredUser();
+          const storedUser = authService.getCurrentUser();
           if (storedUser) {
             setUser(storedUser);
           }

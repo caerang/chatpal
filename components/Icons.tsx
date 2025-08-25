@@ -45,6 +45,23 @@ export const GoogleIcon: React.FC<IconProps> = ({ className }) => (
     </svg>
 );
 
+export const KakaoIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    className={className}
+    viewBox="0 0 48 48"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill="#3C1E1E"
+      d="M24 4C13.523 4 5 11.303 5 20.235c0 5.751 3.837 10.793 9.617 13.57l-2.465 8.816c-.159.572.437 1.048.95.758L21.17 36.85c.903.073 1.814.111 2.83.111c10.477 0 19-7.303 19-16.235S34.477 4 24 4z"
+    />
+    <path
+      fill="#FFEB3B"
+      d="M24 6C14.611 6 7 12.407 7 20.235c0 5.074 3.383 9.528 8.461 12.019l-2.172 7.768c-.111.401.306.734.666.532L21.617 34.7c.777.064 1.566.096 2.383.096c9.389 0 17-6.407 17-14.235S33.389 6 24 6z"
+    />
+  </svg>
+);
+
 export const LogoIcon: React.FC<IconProps> = ({ className }) => (
     <svg 
         className={className}
